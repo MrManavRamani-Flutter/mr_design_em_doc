@@ -19,7 +19,7 @@ CHROME_BIN = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
 
 
 def comparison_card(filename, title, subtitle, desc_items):
-    rel_path = f"emCad_organized_assets/{filename}"
+    rel_path = f"https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/{filename}"
     items_html = "".join([f"<li>{item}</li>" for item in desc_items])
     return f"""
     <div class="comparison-card">
@@ -40,7 +40,7 @@ def comparison_card(filename, title, subtitle, desc_items):
     </div>"""
 
 def drv_img_card(filename, title, desc):
-    rel_path = f"emCad_organized_assets/drive_reference_gallery/{filename}"
+    rel_path = f"https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/drive_reference_gallery/{filename}"
     return f"""
     <div class="image-card">
         <div class="image-container" onclick="openModal('{rel_path}', '{title}')">
@@ -53,7 +53,7 @@ def drv_img_card(filename, title, desc):
     </div>"""
 
 def img_card(filename, title, desc):
-    rel_path = f"emCad_organized_assets/{filename}"
+    rel_path = f"https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/{filename}"
     return f"""
     <div class="image-card">
         <div class="image-container" onclick="openModal('{rel_path}', '{title}')">

@@ -39,11 +39,11 @@
 
 રેફરન્સ બુકમાં નોંધાયેલા તમામ 52 ટૂલ્સ, તેમના સિમ્બોલ, શોર્ટકટ કી અને કાર્ય નીચે મુજબ છે:
 
-![Tools 01 to 11](emCad_organized_assets/01_Tools_Symbols_Part1_Tools_01_to_11.jpg)
-![Tools 11 to 21](emCad_organized_assets/02_Tools_Symbols_Part2_Tools_11_to_21.jpg)
-![Tools 22 to 32](emCad_organized_assets/03_Tools_Symbols_Part3_Tools_22_to_32.jpg)
-![Tools 33 to 43](emCad_organized_assets/04_Tools_Symbols_Part4_Tools_33_to_43.jpg)
-![Tools 44 to 52](emCad_organized_assets/05_Tools_Symbols_Part5_Tools_44_to_52.jpg)
+![Tools 01 to 11](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/01_Tools_Symbols_Part1_Tools_01_to_11.jpg)
+![Tools 11 to 21](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/02_Tools_Symbols_Part2_Tools_11_to_21.jpg)
+![Tools 22 to 32](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/03_Tools_Symbols_Part3_Tools_22_to_32.jpg)
+![Tools 33 to 43](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/04_Tools_Symbols_Part4_Tools_33_to_43.jpg)
+![Tools 44 to 52](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/05_Tools_Symbols_Part5_Tools_44_to_52.jpg)
 
 ### 📋 Complete Tools Master Table
 
@@ -108,7 +108,7 @@
 
 એમ્બ્રોઇડરી મશીનો અને સુરત ટેક્સટાઇલ માર્કેટમાં ઉપયોગમાં લેવાતા સ્ટાન્ડર્ડ માપ:
 
-![Units and Measurements](emCad_organized_assets/06_Step2_Units_Measurements_Area.jpg)
+![Units and Measurements](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/06_Step2_Units_Measurements_Area.jpg)
 
 ### 📏 Measurement Conversion Table
 
@@ -141,30 +141,30 @@
 પંચિંગ વિદ્યાર્થીઓ માટે મશીનનું લાઈવ સિમ્યુલેશન સમજાવતી ૫ એનિમેશન ગાઇડ્સ:
 
 1. **સ્ટીચિંગ vs જમ્પ સિમ્યુલેશન:**
-   ![Jump Simulation](emCad_organized_assets/anim_jump_stitching_simulation.gif)
+   ![Jump Simulation](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/anim_jump_stitching_simulation.gif)
    * **લાલ લાઇન:** સોય કાપડમાં ઊતરીને ટાંકો પાડે છે.
    * **વાદળી તૂટક લાઇન (Jump):** સોય ઊંચી રહીને ફ્રેમ ઝડપથી બીજા ઓબ્જેક્ટ પર ખસે છે.
    * **[TRIM]:** 5 mm થી મોટા જમ્પ પર કાતરથી દોરો કપાય છે.
 
 2. **સિક્વિન (ટિકી) ડ્રોપ અને Fix Type 26 ત્રિકોણ લોક:**
-   ![Sequin Simulation](emCad_organized_assets/anim_sequin_overlap_lock.gif)
+   ![Sequin Simulation](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/anim_sequin_overlap_lock.gif)
    * ગોલ્ડન ટિકી કાપડ પર પડે છે.
    * સોય સેન્ટર કાણામાં ઊતરીને ૧૨૦° ના ખૂણે ૩ ટાંકા મારીને ત્રિકોણ લોક કરે છે.
    * માછલીની છાલ જેવો ૪૦% ઓવરલેપ લુક બને છે.
 
 3. **બીડ્સ (મોતી & કટદાણા) ટાંકો પ્લેસમેન્ટ:**
-   ![Beads Simulation](emCad_organized_assets/anim_beads_taka_placement.gif)
+   ![Beads Simulation](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/anim_beads_taka_placement.gif)
    * ગોળ મોતી (2.0mm) માટે ટાંકો = ૨.૩૦ mm.
    * કાચની નળી (Cutdana 4.0mm) માટે ટાંકો = ૪.૫૦ mm.
    * વળાંક પર  થી ૯° રોટેશન.
 
 4. **પાઘડી (Paghdi F4) કોલમ સિમેટ્રી સાટિન સ્ટીચિંગ:**
-   ![Paghdi Simulation](emCad_organized_assets/anim_paghdi_column_stitching.gif)
+   ![Paghdi Simulation](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/anim_paghdi_column_stitching.gif)
    * વાદળી રેલ વચ્ચે પીળા સાટિન ટાંકા ભરાય છે.
    * Node 'D' (ચોરસ ખૂણો) અને 'O' (ગોળ વળાંક). પહોળાઈ >= 0.8 mm.
 
 5. **Tie-in લોક, ટાંકો, Tie-off લોક અને ઓરિજિન DR 250:**
-   ![Origin Lock Simulation](emCad_organized_assets/anim_lock_origin_dr250.gif)
+   ![Origin Lock Simulation](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/anim_lock_origin_dr250.gif)
    * શરૂઆતમાં ૩ ટાંકા Tie-in ગાંઠ.
    * છેડે ૪ ટાંકા Tie-off પેક.
    *  આપી મશીન ઓરિજિન DR 250 (0,0) પર પાછા ફરવું.
@@ -186,7 +186,7 @@
 ---
 
 ### ૧. પાઘડી (Paghdi / Column Symmetry F4) - સંપૂર્ણ સરખામણી
-![Paghdi Comparison](emCad_organized_assets/69_Compare_Paghdi_Vector_Drawing_vs_Real_Satin_Stitch.jpg)
+![Paghdi Comparison](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/69_Compare_Paghdi_Vector_Drawing_vs_Real_Satin_Stitch.jpg)
 
 **🔍 કિસકો ક્યા કહા જાતા હૈ (Anatomy & Parts Terminology):**
 * **Centerline Axis (મધ્ય અક્ષિસ રેખા - X=0):** કૉલમની બરાબર વચ્ચેથી પસાર થતી રેખા, જેની બંને બાજુ સમાન અંતરે સાટિન સ્ટીચના પોઇન્ટ્સ પડે છે.
@@ -201,7 +201,7 @@
 ---
 
 ### ૨. સિક્વિન (Sequin / ટિકી વર્ક) - સંપૂર્ણ સરખામણી
-![Sequin Comparison](emCad_organized_assets/70_Compare_Sequin_Vector_Drawing_vs_Real_Embroidery.jpg)
+![Sequin Comparison](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/70_Compare_Sequin_Vector_Drawing_vs_Real_Embroidery.jpg)
 
 **🔍 કિસકો ક્યા કહા જાતા હૈ (Anatomy & Parts Terminology):**
 * **Sequin Metallic Disc (ટિકી સર્કલ):** સોનેરી કે સિલ્વર મેટાલિક ચમકતી પતરી, સામાન્ય વ્યાસ 2.0 mm, 3.0 mm અથવા 5.0 mm.
@@ -216,7 +216,7 @@
 ---
 
 ### ૩. બીડ્સ (Beads / મોતી અને કટદાણા) - સંપૂર્ણ સરખામણી
-![Beads Comparison](emCad_organized_assets/71_Compare_Beads_Vector_Drawing_vs_Real_Embroidery.jpg)
+![Beads Comparison](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/71_Compare_Beads_Vector_Drawing_vs_Real_Embroidery.jpg)
 
 **🔍 કિસકો ક્યા કહા જાતા હૈ (Anatomy & Parts Terminology):**
 * **Round Pearl Beads (Beads A - ગોળ મોતી):** સફેદ/ક્રીમ ગોળ મોતી (1.7 mm, 2.0 mm, 2.5 mm). સ્ટાન્ડર્ડ મશીન ટાંકો = 2.15 mm થી 2.30 mm.
@@ -231,7 +231,7 @@
 ---
 
 ### ૪. મિરરિંગ (Mirror 'R' Key) - સંપૂર્ણ સરખામણી
-![Mirror Comparison](emCad_organized_assets/72_Compare_Mirror_Vector_Drawing_vs_Real_Embroidery.jpg)
+![Mirror Comparison](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/72_Compare_Mirror_Vector_Drawing_vs_Real_Embroidery.jpg)
 
 **🔍 કિસકો ક્યા કહા જાતા હૈ (Anatomy & Parts Terminology):**
 * **Center Mirror Axis Line (મધ્ય અરીસાની ધરી રેખા):** ડિઝાઇન સિલેક્ટ કરી 'R' દબાવીને જે લાલ રેખા દોરવામાં આવે છે તે મિરરિંગની મુખ્ય ધરી છે.
@@ -245,7 +245,7 @@
 ---
 
 ### ૫. શેડિંગ ફ્લાવર (Shading Flower & Tatami Fill) - સંપૂર્ણ સરખામણી
-![Shading Comparison](emCad_organized_assets/73_Compare_Shading_Flower_Vector_Drawing_vs_Real_Embroidery.jpg)
+![Shading Comparison](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/73_Compare_Shading_Flower_Vector_Drawing_vs_Real_Embroidery.jpg)
 
 **🔍 કિસકો ક્યા કહા જાતા હૈ (Anatomy & Parts Terminology):**
 * **Needle 1: Dark Red Base Layer (તળિયું):** પાંખડીના નીચેના ભાગમાં ઘાટો લાલ રંગ જે ફૂલની ઊંડાઈ અને પડછાયો (Shadow) દર્શાવે છે.
@@ -259,7 +259,7 @@
 ---
 
 ### ૬. કોર્ડિંગ (Cording F12 દોરી વર્ક) - સંપૂર્ણ સરખામણી
-![Cording Comparison](emCad_organized_assets/74_Compare_Cording_Dori_Vector_Drawing_vs_Real_Embroidery.jpg)
+![Cording Comparison](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/74_Compare_Cording_Dori_Vector_Drawing_vs_Real_Embroidery.jpg)
 
 **🔍 કિસકો ક્યા કહા જાતા હૈ (Anatomy & Parts Terminology):**
 * **Core Cord (મુખ્ય જાડી દોરી - પીળી સેન્ટ્રલ દોરી):** સોનેરી જરી કે સિલ્કની જાડી દોરી જે મશીનના ગાઇડ પાઇપમાંથી કાપડની સપાટી પર સતત પથરાય છે.
@@ -272,8 +272,8 @@
 
 ## <a id="section-3-step-1--step-2-drawing--basic-geometry"></a>🎨 Section 3: Step 1 & Step 2: Drawing & Basic Geometry
 
-![Drawing Shapes](emCad_organized_assets/07_Step1_Drawing_Shapes_Mirror.jpg)
-![Run Flower Circle](emCad_organized_assets/08_Step2_Run_Flower_Circle_Divide.jpg)
+![Drawing Shapes](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/07_Step1_Drawing_Shapes_Mirror.jpg)
+![Run Flower Circle](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/08_Step2_Run_Flower_Circle_Divide.jpg)
 
 ### ✏️ Step 1: Drawing Basics (મૂળભૂત આકારો દોરવા)
 1. **A, B, C, D આકારો:** ચોરસ, ત્રિકોણ, વર્તુળ અને લંબગોળ બનાવીને હાથ બેસાડવો.
@@ -301,10 +301,10 @@
 
 પાઘડી (Paghdi / Column Satin) એ એમ્બ્રોઇડરી પંચિંગનો પાયો છે. પાંદડીઓ, પાંદડા, વેલ અને બોર્ડર માટે પાઘડી બનાવવામાં આવે છે.
 
-![Paghdi F4 Basics](emCad_organized_assets/09_Step3_Paghdi_Column_F4_Basics.jpg)
-![Paghdi Square Spacing](emCad_organized_assets/10_Step3_Paghdi_Square_Spacing_Mirror.jpg)
-![Paghdi F2 Asymmetric](emCad_organized_assets/11_Step3_Paghdi_F2_Asymmetric_Method.jpg)
-![F6 Parallel Run](emCad_organized_assets/12_Step3_F6_Parallel_Run_Length.jpg)
+![Paghdi F4 Basics](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/09_Step3_Paghdi_Column_F4_Basics.jpg)
+![Paghdi Square Spacing](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/10_Step3_Paghdi_Square_Spacing_Mirror.jpg)
+![Paghdi F2 Asymmetric](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/11_Step3_Paghdi_F2_Asymmetric_Method.jpg)
+![F6 Parallel Run](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/12_Step3_F6_Parallel_Run_Length.jpg)
 
 ### 💎 પાઘડી બનાવવાની બે મુખ્ય રીતો:
 
@@ -334,7 +334,7 @@
 
 પંચિંગ કરતી વખતે ઝડપ અને ક્વોલિટી વધારવા માટેના અગત્યના નિયમો:
 
-![Punching Shortcuts](emCad_organized_assets/13_Step4_Punching_Shortcuts_Mechanics.jpg)
+![Punching Shortcuts](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/13_Step4_Punching_Shortcuts_Mechanics.jpg)
 
 ### 🔑 મુખ્ય શોર્ટકટ કીઝ:
 * **`Shift + X`:** નોડ્સને સ્વેપ કરવા / સ્ટાર્ટ અને એન્ડ પોઇન્ટ બદલવા.
@@ -353,8 +353,8 @@
 
 EmCAD માં કીબોર્ડની ફંક્શન કીઝ (F1 થી F12) એ સોફ્ટવેરનું હૃદય છે:
 
-![Function Keys F1 to F9](emCad_organized_assets/14_Step5_Function_Keys_F1_to_F9.jpg)
-![F10 Motif F12 Cording](emCad_organized_assets/15_Step5_F10_Motif_F11_F12_Cording.jpg)
+![Function Keys F1 to F9](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/14_Step5_Function_Keys_F1_to_F9.jpg)
+![F10 Motif F12 Cording](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/15_Step5_F10_Motif_F11_F12_Cording.jpg)
 
 ### 📊 Function Keys Master Guide
 
@@ -379,14 +379,14 @@ EmCAD માં કીબોર્ડની ફંક્શન કીઝ (F1 થ
 
 મોટા ઉત્પાદન (Production) માટે ફાર્મા સેટ કરવો અને રીપીટ બેસાડવા એ પંચરનું મુખ્ય કામ છે:
 
-![Machine Repeats](emCad_organized_assets/16_Step6_Machine_Repeats_Lace_Sizes.jpg)
-![Farma 400 to 390](emCad_organized_assets/39_Step12_Farma_400Width_390WorkingArea.jpg)
-![Farma Crossline](emCad_organized_assets/40_Step12_Farma_Crossline_Center_X0_Y0.jpg)
-![Farma Percentage Steps](emCad_organized_assets/42_Step12_Farma_Mirror_12point5_Percent_Steps.jpg)
-![Farma 16.5 Steps](emCad_organized_assets/43_Step12_Farma_16point5_Percent_Steps.jpg)
-![Box Pattern Offset](emCad_organized_assets/44_Step12_Box_Pattern_300_150_Offset.jpg)
-![Net Calculations](emCad_organized_assets/46_Step12_Net_Embroidery_Calculations.jpg)
-![Scanner Setup](emCad_organized_assets/47_Step12_Scanner_Setup_Canon_MF_Toolbox.jpg)
+![Machine Repeats](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/16_Step6_Machine_Repeats_Lace_Sizes.jpg)
+![Farma 400 to 390](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/39_Step12_Farma_400Width_390WorkingArea.jpg)
+![Farma Crossline](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/40_Step12_Farma_Crossline_Center_X0_Y0.jpg)
+![Farma Percentage Steps](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/42_Step12_Farma_Mirror_12point5_Percent_Steps.jpg)
+![Farma 16.5 Steps](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/43_Step12_Farma_16point5_Percent_Steps.jpg)
+![Box Pattern Offset](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/44_Step12_Box_Pattern_300_150_Offset.jpg)
+![Net Calculations](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/46_Step12_Net_Embroidery_Calculations.jpg)
+![Scanner Setup](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/47_Step12_Scanner_Setup_Canon_MF_Toolbox.jpg)
 
 ### 🔲 ફાર્મા બનાવવાની રીત (400 mm Frame Setup):
 1. મશીન ફ્રેમની પહોળાઈ **400 mm** હોય ત્યારે વાસ્તવિક કામ કરવાની જગ્યા **390 mm** રાખવી (બંને બાજુ 5-5 mm સેફ્ટી માર્જિન).
@@ -432,7 +432,7 @@ EmCAD માં કીબોર્ડની ફંક્શન કીઝ (F1 થ
 
 ## <a id="section-8-step-7-custom-motif-creation--motif-fill"></a>🌺 Section 8: Step 7: Custom Motif Creation & Motif Fill
 
-![Motif Creation](emCad_organized_assets/17_Step7_Motif_Creation_And_Motif_Fill.jpg)
+![Motif Creation](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/17_Step7_Motif_Creation_And_Motif_Fill.jpg)
 
 ### 🎨 મોટીફ બનાવવાની રીત:
 1. એક નાનો ઓબ્જેક્ટ (દા.ત. પાંદડી, સ્ટાર કે કેરી) દોરો.
@@ -448,8 +448,8 @@ EmCAD માં કીબોર્ડની ફંક્શન કીઝ (F1 થ
 
 ## <a id="section-9-step-8-advanced-stitch-effects--density-control"></a>✨ Section 9: Step 8: Advanced Stitch Effects & Density Control
 
-![Satin Density](emCad_organized_assets/18_Step8_Satin_Density_And_Tatami_Split.jpg)
-![Zigzag Pattern Split](emCad_organized_assets/19_Step8_Zigzag_EStitch_PatternSplit_Contour.jpg)
+![Satin Density](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/18_Step8_Satin_Density_And_Tatami_Split.jpg)
+![Zigzag Pattern Split](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/19_Step8_Zigzag_EStitch_PatternSplit_Contour.jpg)
 
 ### 🪡 1. Satin Density (સાટિન ઘનતા):
 * **Stitch Distance:** સ્ટાન્ડર્ડ **0.4 mm થી 0.5 mm** (હલકા કાપડ પર 0.6 mm થી 0.8 mm).
@@ -470,12 +470,12 @@ EmCAD માં કીબોર્ડની ફંક્શન કીઝ (F1 થ
 
 ## <a id="section-10-step-9-9-needle-photo-setup-color-shading--florentine-effects"></a>🌈 Section 10: Step 9: 9-Needle Photo Setup, Color Shading & Florentine Effects
 
-![9-Needle Setup](emCad_organized_assets/20_Step9_9Needle_Photo_Setup_Sequencing.jpg)
-![Shading Flower](emCad_organized_assets/21_Step9_Shading_Flower_Vector_Circle.jpg)
-![Perpendicular Fill](emCad_organized_assets/22_Step9_Perpendicular_Fill_Cross_Point.jpg)
-![Florentine Effect](emCad_organized_assets/23_Step9_Florentine_Effect_Curved_Fill.jpg)
-![Cording Neck](emCad_organized_assets/24_Step9_Cording_Neck_Island_Coil.jpg)
-![Island Cord](emCad_organized_assets/25_Step9_Island_Cord_Outline_Method.jpg)
+![9-Needle Setup](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/20_Step9_9Needle_Photo_Setup_Sequencing.jpg)
+![Shading Flower](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/21_Step9_Shading_Flower_Vector_Circle.jpg)
+![Perpendicular Fill](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/22_Step9_Perpendicular_Fill_Cross_Point.jpg)
+![Florentine Effect](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/23_Step9_Florentine_Effect_Curved_Fill.jpg)
+![Cording Neck](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/24_Step9_Cording_Neck_Island_Coil.jpg)
+![Island Cord](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/25_Step9_Island_Cord_Outline_Method.jpg)
 
 ### 📸 9-Needle Photo Setup:
 1. ફોટોને **200 mm ના એરિયામાં** સેટ કરવો.
@@ -504,7 +504,7 @@ EmCAD માં કીબોર્ડની ફંક્શન કીઝ (F1 થ
 
 ## <a id="section-11-step-10-transform-seg-3mm--motif-lace"></a>🔄 Section 11: Step 10: Transform, Seg 3mm & Motif Lace
 
-![Transform Lace](emCad_organized_assets/26_Step10_Transform_Seg_Motif_Lace.jpg)
+![Transform Lace](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/26_Step10_Transform_Seg_Motif_Lace.jpg)
 
 ### ⚙️ લેસ ટ્રાન્સફોર્મ સેટિંગ્સ:
 * Transform મેનુમાં જઈ **Seg (3 mm)** સાઈઝ સેટ કરવી.
@@ -522,20 +522,20 @@ EmCAD માં કીબોર્ડની ફંક્શન કીઝ (F1 થ
 
 સિક્વિન (ટિકી) અને બીડ્સ (કાચના મોતી/નળી) નું કામ સુરત માર્કેટમાં સૌથી વધુ નફો આપે છે:
 
-![Dialog ExpandToFit](emCad_organized_assets/27_Dialog_ObjectProperty_ExpandToFit.jpg)
-![Dialog ContractToFit](emCad_organized_assets/28_Dialog_ObjectProperty_ContractToFit.jpg)
-![Dialog Position Edge](emCad_organized_assets/29_Dialog_ObjectProperty_Position_Edge_Fit.jpg)
-![Dialog Position Detail](emCad_organized_assets/30_Dialog_ObjectProperty_Position_Detail.jpg)
-![Beads Config General](emCad_organized_assets/31_Step11_Beads_Config_General.jpg)
-![Beads Size Spray](emCad_organized_assets/32_Step11_Beads_Size_Height_Spray.jpg)
-![Beads Types ABCD](emCad_organized_assets/33_Step11_Beads_Types_A_B_C_D_Sizes.jpg)
-![Single Bead AltCapsLock](emCad_organized_assets/34_Step11_Single_Bead_AltCapsLock_Angle.jpg)
-![Overlap Sew](emCad_organized_assets/35_Dialog_ObjectProperty_OverlapSew.jpg)
-![Straight Stitch](emCad_organized_assets/36_Dialog_ObjectProperty_Straight_StitchLength.jpg)
-![Margin Process](emCad_organized_assets/38_Dialog_MarginProcess_Minimize_Margin.jpg)
-![Beads Specs Table](emCad_organized_assets/62_Step16_Beads_Sizes_Heights_Taka_Table.jpg)
-![Beads Breakdown](emCad_organized_assets/64_Step16_Beads_Breakdown_AltY_AltB_Split.jpg)
-![Fix Adjust](emCad_organized_assets/65_Step16_Fix_Adjust_CtrlA_Offset_Fit.jpg)
+![Dialog ExpandToFit](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/27_Dialog_ObjectProperty_ExpandToFit.jpg)
+![Dialog ContractToFit](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/28_Dialog_ObjectProperty_ContractToFit.jpg)
+![Dialog Position Edge](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/29_Dialog_ObjectProperty_Position_Edge_Fit.jpg)
+![Dialog Position Detail](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/30_Dialog_ObjectProperty_Position_Detail.jpg)
+![Beads Config General](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/31_Step11_Beads_Config_General.jpg)
+![Beads Size Spray](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/32_Step11_Beads_Size_Height_Spray.jpg)
+![Beads Types ABCD](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/33_Step11_Beads_Types_A_B_C_D_Sizes.jpg)
+![Single Bead AltCapsLock](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/34_Step11_Single_Bead_AltCapsLock_Angle.jpg)
+![Overlap Sew](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/35_Dialog_ObjectProperty_OverlapSew.jpg)
+![Straight Stitch](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/36_Dialog_ObjectProperty_Straight_StitchLength.jpg)
+![Margin Process](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/38_Dialog_MarginProcess_Minimize_Margin.jpg)
+![Beads Specs Table](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/62_Step16_Beads_Sizes_Heights_Taka_Table.jpg)
+![Beads Breakdown](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/64_Step16_Beads_Breakdown_AltY_AltB_Split.jpg)
+![Fix Adjust](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/65_Step16_Fix_Adjust_CtrlA_Offset_Fit.jpg)
 
 ### 🎛️ Object Property - Sequin Config Dialog Options:
 1. **Position (પોઝિશન):**
@@ -602,7 +602,7 @@ EmCAD માં કીબોર્ડની ફંક્શન કીઝ (F1 થ
 
 સુરત અને ઇન્ટરનેશનલ માર્કેટમાં **લૂપિંગ (Looping), ચેનીલ (Chenille) અને મોસ સ્ટીચ (Moss Stitch / Terry Loop)** નું કામ હાઇ-એન્ડ વેલ્વેટ લહેંગા, જેકેટ્સ અને કિડ્સ વેર માટે અત્યંત લોકપ્રિય છે. સામાન્ય એમ્બ્રોઇડરીમાં દોરો કાપડની સપાટી પર સપાટ બેસે છે, જ્યારે લૂપિંગમાં દોરાના **3D ઊભા લૂપ્સ (Upright Plush Loops)** બને છે જે ટવેલ અથવા વેલ્વેટ જેવો ભવ્ય લુક આપે છે.
 
-![Looping Vector vs Real](emCad_organized_assets/75_Compare_Looping_Vector_Drawing_vs_Real_Embroidery.jpg)
+![Looping Vector vs Real](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/75_Compare_Looping_Vector_Drawing_vs_Real_Embroidery.jpg)
 
 ### ⚙️ લૂપિંગ પંચિંગ નિયમો અને ટેકનિકલ સેટિંગ્સ:
 1. **હોલો નીડલ (Hollow Needle 120/19):** લૂપિંગ માટે ખાસ પોચી સોય વપરાય છે. સોયની અંદરથી જાડો ઊન કે એક્રેલિકનો ફ્લફી દોરો સતત પસાર થાય છે.
@@ -616,8 +616,8 @@ EmCAD માં કીબોર્ડની ફંક્શન કીઝ (F1 થ
 
 ## <a id="section-13-step-13-lock-methods--thread-mechanics"></a>🔒 Section 13: Step 13: Lock Methods & Thread Mechanics
 
-![Lock Method](emCad_organized_assets/49_Step13_Lock_Method_Cording_Run_In_Out.jpg)
-![Lock Trim](emCad_organized_assets/50_Step13_Lock_Trim_Jump_Settings.jpg)
+![Lock Method](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/49_Step13_Lock_Method_Cording_Run_In_Out.jpg)
+![Lock Trim](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/50_Step13_Lock_Trim_Jump_Settings.jpg)
 
 ### 🧵 લોક પદ્ધતિના નિયમો:
 1. **Start Lock:** કોઈપણ ઓબ્જેક્ટ શરૂ થાય ત્યારે 3 થી 5 ઝીણા ટાંકા આગળ-પાછળ ચાલીને ગાંઠ મારે જેથી ખેંચાતા દોરો નીકળી ન જાય.
@@ -630,11 +630,11 @@ EmCAD માં કીબોર્ડની ફંક્શન કીઝ (F1 થ
 
 ## <a id="section-14-step-14-file-formats-dhp-dst-dhe-emb--dahao-machine-setup"></a>💾 Section 14: Step 14: File Formats (.DHP, .DST, .DHE, .EMB) & Dahao Machine Setup
 
-![File Formats](emCad_organized_assets/51_Step14_File_Formats_DHP_DST_DHE_EMB.jpg)
-![Dahao DST Setting](emCad_organized_assets/52_Step14_Dahao_DST_Setting_Beads_Seq.jpg)
-![Dialog Dahao Controller](emCad_organized_assets/53_Dialog_Daho_Controller_Beads_Setting.jpg)
-![Dahao 3Beads 4Beads](emCad_organized_assets/54_Step14_Daho_3Beads_4Beads_Combinations.jpg)
-![EmCAD Licensing](emCad_organized_assets/55_Step14_Daho_Licensing_Versions_210_260.jpg)
+![File Formats](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/51_Step14_File_Formats_DHP_DST_DHE_EMB.jpg)
+![Dahao DST Setting](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/52_Step14_Dahao_DST_Setting_Beads_Seq.jpg)
+![Dialog Dahao Controller](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/53_Dialog_Daho_Controller_Beads_Setting.jpg)
+![Dahao 3Beads 4Beads](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/54_Step14_Daho_3Beads_4Beads_Combinations.jpg)
+![EmCAD Licensing](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/55_Step14_Daho_Licensing_Versions_210_260.jpg)
 
 ### 📁 ફાઇલ ફોર્મેટ્સની સરખામણી:
 
@@ -661,11 +661,11 @@ EmCAD માં કીબોર્ડની ફંક્શન કીઝ (F1 થ
 
 સાડીનું પંચિંગ એ સૌથી મોટું અને જવાબદારીભર્યું કામ છે:
 
-![Saree Area 400](emCad_organized_assets/56_Step15_Saree_400Area_Pally_Mirror.jpg)
-![Saree Repeats](emCad_organized_assets/57_Step15_Saree_Repeats_100_200_133.jpg)
-![25 Head Machine Shift](emCad_organized_assets/58_Step15_25Head_Embroidery_Machine_Shift.jpg)
-![Multi-Head Rules](emCad_organized_assets/59_Step15_MultiHead_Punching_Rules_AutoJump.jpg)
-![Double Shade Flower](emCad_organized_assets/60_Step15_Shading_Flower_Double_Shade.jpg)
+![Saree Area 400](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/56_Step15_Saree_400Area_Pally_Mirror.jpg)
+![Saree Repeats](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/57_Step15_Saree_Repeats_100_200_133.jpg)
+![25 Head Machine Shift](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/58_Step15_25Head_Embroidery_Machine_Shift.jpg)
+![Multi-Head Rules](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/59_Step15_MultiHead_Punching_Rules_AutoJump.jpg)
+![Double Shade Flower](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/60_Step15_Shading_Flower_Double_Shade.jpg)
 
 ### 📏 સાડીનું સ્ટાન્ડર્ડ માપ:
 * ફ્રેમ એરિયા: **400 mm**.
@@ -689,9 +689,9 @@ EmCAD માં કીબોર્ડની ફંક્શન કીઝ (F1 થ
 
 ડિઝાઇન મશીન પર મોકલતા પહેલાં કરવાની ફાઇનલ ચકાસણી:
 
-![Design Lock DR250](emCad_organized_assets/61_Step16_Design_Lock_DR250_Origin_Export.jpg)
-![Text Tool](emCad_organized_assets/63_Step16_Text_Tool_Beds_Seq_Pattern_45Deg.jpg)
-![Shortcuts Summary](emCad_organized_assets/67_Step16_Shortcuts_Summary_AltCapsLock_Rotate.jpg)
+![Design Lock DR250](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/61_Step16_Design_Lock_DR250_Origin_Export.jpg)
+![Text Tool](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/63_Step16_Text_Tool_Beds_Seq_Pattern_45Deg.jpg)
+![Shortcuts Summary](https://raw.githubusercontent.com/MrManavRamani-Flutter/mr_design_em_doc/main/emCad_organized_assets/67_Step16_Shortcuts_Summary_AltCapsLock_Rotate.jpg)
 
 ### 📋 ફાઇનલ ચેકલિસ્ટ:
 1. **DR 250 Origin Lock:** ડિઝાઇનની પોઝિશન **$X = 0, Y = 0$** પર લોક કરવી (Design Position Lock).
