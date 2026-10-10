@@ -707,6 +707,76 @@ EmCAD માં કીબોર્ડની ફંક્શન કીઝ (F1 થ
 
 ---
 
+## <a id="section-16b-drive-reference-gallery"></a>🏭 Section 16B: Google Drive રીયલ ફેક્ટરી આર્કાઈવ & મશીન રેફરન્સ લાયબ્રેરી (37 Master Reference Swatches & Screens)
+### ઓરિજિનલ ફેક્ટરી સેમ્પલ્સ, મશીન હેડ્સ & emCAD Pro લૂપિંગ સ્ક્રીન્સ (Google Drive 20261010T063837Z-1-001)
+
+તમારા ગૂગલ ડ્રાઇવ ડાઉનલોડમાંથી મળેલા **૩૭ ઔદ્યોગિક સેમ્પલ્સ અને સ્ક્રીનશોટ્સ** નું સંપૂર્ણ વર્ગીકરણ અને પંચિંગ માર્ગદર્શિકા:
+
+### 🖥️ કેટેગરી ૧: Dahao emCAD Pro સોફ્ટવેર ઇન્ટરફેસ & પેરામીટર્સ
+1. **`DRV_13_EmCAD_Pro_2.10_Looping_Demo_Screen.jpg` (LOOPING_DEMO.DHP):**
+   - **મહત્વ:** આ સ્ક્રીનશોટ EmCAD Pro 2.10 Enhanced વર્ઝનમાં ઓપન કરેલી `LOOPING_DEMO.DHP` ફાઇલ બતાવે છે.
+   - **કી પેરામીટર:** Sequin B ડિવાઇસ ફીડિંગ અંતર **32.2 mm** સેટ કરેલું છે. આ પેરામીટર લૂપિંગ અને સિક્વિન ડિવાઇસને ફેબ્રિક પર યોગ્ય ઊંચાઈએથી મટીરીયલ ડ્રોપ કરવા માટે જરૂરી છે.
+2. **`DRV_14_EmCAD_Pro_Sequin_B_Device_Params.jpg` (Device Parameters):**
+   - **મહત્વ:** Sequin B ડિવાઇસના ચોક્કસ કોઓર્ડિનેટ્સ: **$X = 1.15 \text{ mm}, Y = 0.00 \text{ mm}$**.
+   - **પંચિંગ નિયમ:** સિક્વિન કે લૂપ ડ્રોપ થયા પછી સોય બરાબર સેન્ટ્રલ હોલમાં ઉતરે તે માટે આ ઓફસેટ સેટ કરવામાં આવે છે.
+3. **`DRV_03_EmCAD_2.5_Software_Interface.jpg` (emCAD 2.5 UI):**
+   - **મહત્વ:** Dahao 2.5 સ્ટાન્ડર્ડ વર્કસ્પેસ - કલર નીડલ બાર્સ (2, 04, 08, 13, 07), વર્તમાન કોઓર્ડિનેટ્સ ($X=-75.06, Y=-75.78, L=106.66\text{ mm}$), અને ઝૂમ ૧.૦૦.
+4. **`DRV_35_Fill_vs_Outline_Stitch_Types_Chart.jpg` (Fill vs Outline Master Chart):**
+   - **Fill Stitches:** Tatami, Satin, Contour, Florentine, Program Split, Motif Fill.
+   - **Outline Stitches:** Run (F8), Triple Bean (F9), Satin Outline (F2), Zigzag, E-Stitch, Stem Stitch.
+5. **`DRV_23_Stitch_Density_Punching_Dialog.jpg` (Object Properties & Density):**
+   - **પેરામીટર્સ:** Satin Density = 0.38 - 0.42 mm, Tatami Length = 3.8 mm, Pull Compensation = +0.15 mm.
+
+### 🏭 કેટેગરી ૨: ઇન્ડસ્ટ્રિયલ મલ્ટી-હેડ પ્રોડક્શન મશીનરી & નીડલ હેડ્સ
+6. **`DRV_01_MultiHead_Embroidery_Machine_Shop.jpg` (૨૫/૩૦ હેડ મલ્ટી-હેડ કારખાનું):**
+   - મોટા પાયે સાડી અને લેસ બનાવવા વપરાતા લાંબા મશીન્સ. હેડ સ્પેસિંગ: ૩૦૦ mm અથવા ૪૦૦ mm.
+7. **`DRV_29_Barudan_Machine_Head_Needle_Bar.jpg` (હાઇ-સ્પીડ મશીન હેડ):**
+   - નીડલ બાર, થ્રેડ ટેન્શન ડાયલ્સ, ટેક-અપ લિવર અને ઓટો-ટ્રિમર કટર બ્લોકનું મિકેનિક્સ.
+
+### 🧵 કેટેગરી ૩: કોર્ડિંગ & દોરી એમ્બ્રોઇડરી ટેકનીક્સ
+8. **`DRV_12_Heavy_Gold_Cording_Dori_Stitch.jpg`:** જાડી ગોલ્ડ દોરી પર ૧.૨ mm ઝિગઝેગ ટાંકા.
+9. **`DRV_19_Thick_Cording_Rope_Zigzag_Lock.jpg`:** હાઇ-વોલ્યુમ રોપ દોરી પર ૨.૫ mm ઝિગઝેગ લિગામેન્ટ લોક ટાંકા.
+10. **`DRV_25_MultiColor_Cording_Yarn_Mesh.jpg`:** નેટ જાળી પર અલગ-અલગ રંગની દોરીઓનું મલ્ટી-લેયર કમ્પોઝિશન.
+11. **`DRV_32_Island_Cording_Dori_Border.jpg`:** કટિંગ વગર સળંગ દોરી ફેરવવા માટે આઇલેન્ડ કનેક્ટર.
+12. **`DRV_11_Gold_Thread_Relief_Work.jpg`:** પાઘડી સાટિન સાથે દોરીની જુગલબંધી.
+
+### ➰ કેટેગરી ૪: લૂપિંગ & ચેનીલ એમ્બ્રોઇડરી ટેક્સચર્સ
+13. **`DRV_16_Chenille_Looping_Art_Embroidery.jpg`:** ઉપસેલા લૂપ્સ વડે બનાવેલું પ્રીમિયમ 3D ચેનીલ ટેક્સચર.
+14. **`DRV_02_Loop_Chain_Chenille_Embroidery_Sample.jpg`:** સળંગ ચેઇન લૂપ્સ વડે બોર્ડર અને પેટલ ફિલિંગ.
+15. **`DRV_22_Pudder_Pela_Albe_Stitch_Types.jpg`:** પુડ્ડર લૂપ અને પેલા રિલિફ સ્ટીચિંગ.
+
+### ⚪ કેટેગરી ૫: બીડ્સ & મોતી એમ્બ્રોઇડરી માસ્ટરી
+16. **`DRV_10_Crystal_Beads_Hand_Machine_Khaka.jpg`:** ક્રિસ્ટલ બીડ્સ અને હેન્ડ-લુક મશીન ખાકા.
+17. **`DRV_21_Gold_Beads_45Deg_Taka_Embroidery.jpg`:** ચોક્કસ ૪૫ ડિગ્રી એંગલે ક્રોસ ટાંકો.
+18. **`DRV_15_MultiSize_Pearl_Beads_Embroidery.jpg`:** મોટા (૩.૫ mm) અને નાના (૨.૦ mm) મોતીનું મિશ્રણ.
+19. **`DRV_20_Micro_Beads_Angle_Taka_Detail.jpg`:** Alt + CapsLock વડે ૯° ના ગુણકમાં મોતી ફેરવવાની રીત.
+20. **`DRV_34_Curved_Contour_Beads_Placement.jpg`:** તીક્ષ્ણ વળાંક પર મોતીઓ વચ્ચે સ્ટેપ સ્પેસિંગ.
+21. **`DRV_37_Sequin_Beads_Combo_Lace_Border.jpg`:** સિક્વિન અને મોતીની સંયુક્ત લેસ ડિઝાઇન.
+
+### ✨ કેટેગરી ૬: સિક્વિન / સિતારા એમ્બ્રોઇડરી ટેકનીક્સ
+22. **`DRV_07_Sequin_Overlapping_Scale_Border.jpg`:** મચ્છી સ્કેલ પદ્ધતિ (૫૦% ઓવરલેપિંગ સિક્વિન).
+23. **`DRV_04_Sequin_Rosette_Circular_Pattern.jpg`:** સર્ક્યુલર એંગલમાં ઘૂમતા સિતારા વિથ સેન્ટ્રલ લોક સ્ટીચ.
+24. **`DRV_27_Double_Stack_Sequin_Beads_Pattern.jpg`:** નીચે સિતારો અને ઉપર મોતીનો કુંભી ટાંકો (Double Stack).
+25. **`DRV_28_Double_Stack_Sequin_Beads_Pattern_Var.jpg`:** ડબલ સ્ટેક સિતારા-મોતીની રોયલ બોર્ડર.
+
+### 👑 કેટેગરી ૭: પાઘડી & સાટિન સ્ટીચ રિલિફ વર્ક
+26. **`DRV_08_Paghdi_Satin_Floral_Embroidery.jpg`:** સાટિન પાઘડી સ્ટીચ વડે બનાવેલી ઉપસેલી પાંખડીઓ.
+27. **`DRV_18_Paghdi_Contour_Satin_Relief.jpg`:** વળાંક મુજબ ફરતા સાટિન ટાંકા (Turning Satin).
+28. **`DRV_26_Dense_Satin_Tatami_Split_Work.jpg`:** ૮ mm થી પહોળા ભાગમાં દોરાને તૂટતો રોકવા તતામી સ્પ્લિટ.
+29. **`DRV_31_Architectural_Satin_Column_Motif.jpg`:** જિયોમેટ્રિક સ્તંભ અને શાર્પ કોર્નર્સ સાથે મજબૂત પાઘડી સ્ટીચ.
+
+### 🌸 કેટેગરી ૮: વેક્ટર ડ્રોઇંગ, શેડિંગ & મિરર વર્ક
+30. **`DRV_33_Mirror_Work_Glass_Embroidery.jpg`:** કાચના આભલાને પકડી રાખતી અષ્ટકોણીય સાટિન ફ્રેમ.
+31. **`DRV_06_Star_Motif_Gradient_Stitch.jpg`:** બે રંગના દોરાનું કુદરતી મિશ્રણ (Color Gradient Shading).
+32. **`DRV_24_Spiral_Coil_Lollipop_Stitch.jpg`:** ગોળ ઘૂમતી સર્પાકાર સ્ટીચ પેટર્ન વિથ સેન્ટ્રલ એન્કર.
+33. **`DRV_30_Florentine_Cross_Stitch_Swatch.jpg`:** પાણીના મોજાં જેવી ફ્લોરેન્ટાઇન વળાંકવાળી સ્ટીચ લાઇન.
+34. **`DRV_05_Tatami_Mesh_Grid_Background.jpg`:** કાપડને ખેંચાતું રોકવા માટે અન્ડરલે જાળી નેટવર્ક.
+35. **`DRV_09_Floral_Vector_Punching_Drawing.jpg`:** સ્કેન ઈમેજ પરથી શુદ્ધ વેક્ટર લાઈન્સ બનાવવાનું સ્ટેજ.
+36. **`DRV_17_Geometric_Run_Outline_Drawing.jpg`:** બોર્ડર્સ અને ગાઈડલાઈન્સ માટે ચોક્કસ રન સ્ટીચ પાથ.
+37. **`DRV_36_Vector_Flower_Punching_Artwork.jpg`:** પંચિંગ પહેલાં નીડલ કલર સિક્વન્સ અને રૂટીંગ પ્લાનિંગ.
+
+---
+
 ## <a id="section-17-master-shortcut-cheat-sheet"></a>⚡ Section 17: Master Shortcut Cheat Sheet
 
 | Category | Shortcut | Function / Action |

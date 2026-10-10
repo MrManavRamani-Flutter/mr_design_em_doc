@@ -39,6 +39,19 @@ def comparison_card(filename, title, subtitle, desc_items):
         </div>
     </div>"""
 
+def drv_img_card(filename, title, desc):
+    rel_path = f"emCad_organized_assets/drive_reference_gallery/{filename}"
+    return f"""
+    <div class="image-card">
+        <div class="image-container" onclick="openModal('{rel_path}', '{title}')">
+            <img src="{rel_path}" alt="{title}" loading="lazy">
+        </div>
+        <div class="image-caption">
+            <strong>{title}</strong>
+            <span>{desc}</span>
+        </div>
+    </div>"""
+
 def img_card(filename, title, desc):
     rel_path = f"emCad_organized_assets/{filename}"
     return f"""
@@ -1107,8 +1120,8 @@ HTML_HEAD = """<!DOCTYPE html>
                     <div class="hero-stat-label">ડ્રોઇંગથી ફાઇનલ પ્રોડક્શન</div>
                 </div>
                 <div class="hero-stat">
-                    <div class="hero-stat-num">૭૪ ચિત્રો</div>
-                    <div class="hero-stat-label">૨૪૦૦px HD અપસ્કેલ + ૬ સરખામણી પ્લેટ્સ</div>
+                    <div class="hero-stat-num">૧૧૧ ચિત્રો</div>
+                    <div class="hero-stat-label">૭૪ HD અપસ્કેલ + ૩૭ ડ્રાઇવ રેફરન્સ સ્વેચીસ</div>
                 </div>
                 <div class="hero-stat">
                     <div class="hero-stat-num">દહાઓ સેટિંગ્સ</div>
@@ -3045,6 +3058,235 @@ def assemble_sections():
     """
 
     
+
+    sec_drive_gallery = """
+    <div class="section-card" id="sec-drive-gallery">
+        <div class="section-header">
+            <div class="section-title">
+                <span>🏭</span> Section 16B: Google Drive રીયલ ફેક્ટરી આર્કાઈવ & મશીન રેફરન્સ લાયબ્રેરી (37 Master Reference Swatches & Screens)
+            </div>
+            <span class="section-tag">૩૭ ઓરિજિનલ ફેક્ટરી સેમ્પલ્સ, મશીન હેડ્સ & emCAD Pro લૂપિંગ સ્ક્રીન્સ</span>
+        </div>
+        <p style="margin-bottom: 16px; font-size: 14.5px; line-height: 1.6;">
+            આ સેક્શનમાં તમારા <b>Google Drive Download (20261010T063837Z-1-001)</b> માંથી મળેલા તમામ <b>૩૭ ઓરિજિનલ ઔદ્યોગિક સેમ્પલ્સ</b>, 
+            Dahao emCAD Pro સોફ્ટવેરની લૂપિંગ અને સિક્વિન સ્ક્રીન્સ, મલ્ટી-હેડ મશીન પ્રોડક્શન ફોટોગ્રાફ્સ અને રીયલ એમ્બ્રોઇડરી ટેક્સચર્સને 
+            વિસ્તૃત રીતે વર્ગીકૃત કરી દરેકનું પંચિંગ મહત્વ સમજાવવામાં આવ્યું છે:
+        </p>
+
+        <!-- SUB-SECTION 1: SOFTWARE UI & DIGITIZING -->
+        <div style="background: #1E293B; border-radius: 10px; padding: 18px; margin-bottom: 24px; border: 1px solid #334155;">
+            <h3 style="color: #38BDF8; margin-bottom: 10px; font-size: 16px;">
+                🖥️ કેટેગરી ૧: Dahao emCAD Pro સોફ્ટવેર ઇન્ટરફેસ & ડિવાઇસ પેરામીટર્સ (૫ સ્ક્રીન્સ)
+            </h3>
+            <p style="color: #CBD5E1; font-size: 13.5px; margin-bottom: 14px;">
+                આ સ્ક્રીનશોટ્સ Dahao emCAD 2.5 અને Enhanced 2.10 Pro ના વાસ્તવિક પંચિંગ વર્કસ્પેસ દર્શાવે છે.
+            </p>
+            <div class="image-gallery">
+                """ + drv_img_card("DRV_13_EmCAD_Pro_2.10_Looping_Demo_Screen.jpg", "૧. emCAD Pro 2.10 - LOOPING_DEMO.DHP", "લૂપિંગ ડેમો ફાઇલ! Sequin B (32.2mm) ફીડિંગ, નીડલ બાર્સ, ટ્રાવેલ અને ટાકા પેરામીટર્સ.") + """
+                """ + drv_img_card("DRV_14_EmCAD_Pro_Sequin_B_Device_Params.jpg", "૨. Sequin B ડિવાઇસ પેરામીટર્સ ક્લોઝ-અપ", "X: 1.15 mm, Y: 0.00 mm, ડિવાઇસ ડ્રોપ અંતર અને ટાકા લોકિંગ પોઝિશન.") + """
+                """ + drv_img_card("DRV_03_EmCAD_2.5_Software_Interface.jpg", "૩. Dahao emCAD 2.5 વર્કસ્પેસ UI", "કોઓર્ડિનેટ્સ X=-75.06, Y=-75.78, L=106.66 mm, 5 નીડલ કલર પેલેટ અને ટૂલબાર્સ.") + """
+                """ + drv_img_card("DRV_35_Fill_vs_Outline_Stitch_Types_Chart.jpg", "૪. Fill Stitches vs Outline Stitches ચાર્ટ", "તતામી, સાટિન, કોન્ટૂર, ફ્લોરેન્ટાઇન ફિલ vs રન, ઝિગઝેગ, E-Stitch અને મોટિફ આઉટલાઇન.") + """
+                """ + drv_img_card("DRV_23_Stitch_Density_Punching_Dialog.jpg", "૫. સ્ટીચ ડેન્સિટી & ઓબ્જેક્ટ પ્રોપર્ટી ડાયલોગ", "સાટિન ઘનતા 0.38-0.42 mm, તતામી લંબાઈ 3.8 mm અને અન્ડરલે કંટ્રોલ પેનલ.") + """
+            </div>
+            <div style="background: rgba(56, 189, 248, 0.1); border-left: 4px solid #38BDF8; padding: 10px 14px; margin-top: 12px; border-radius: 4px; font-size: 13px; color: #E2E8F0;">
+                <b>💡 ટેકનિકલ ટિપ:</b> DRV_13 સ્ક્રીન સાબિત કરે છે કે લૂપિંગ અને સિક્વિન ડિવાઇસ B માટે મશીન ફીડિંગ પેરામીટર <b>32.2 mm</b> રાખવામાં આવે છે, જેથી ડિવાઇસ ફેબ્રિક પર અથડાયા વગર સ્મૂધ સિક્વિન/લૂપ ડ્રોપ કરી શકે.
+            </div>
+        </div>
+
+        <!-- SUB-SECTION 2: INDUSTRIAL EMBROIDERY MACHINES -->
+        <div style="background: #1E293B; border-radius: 10px; padding: 18px; margin-bottom: 24px; border: 1px solid #334155;">
+            <h3 style="color: #4ADE80; margin-bottom: 10px; font-size: 16px;">
+                🏭 કેટેગરી ૨: ઇન્ડસ્ટ્રિયલ મલ્ટી-હેડ પ્રોડક્શન મશીનરી & નીડલ હેડ્સ (૨ ફોટોઝ)
+            </h3>
+            <p style="color: #CBD5E1; font-size: 13.5px; margin-bottom: 14px;">
+                કારખાનામાં મોટા પાયે સાડી, લેસ અને ડ્રેસ મટીરીયલ બનાવવા વપરાતા ૨૫ થી ૩૨ હેડ મલ્ટી-હેડ મશીન્સ.
+            </p>
+            <div class="image-gallery">
+                """ + drv_img_card("DRV_01_MultiHead_Embroidery_Machine_Shop.jpg", "૬. ૨૫/૩૦ હેડ મલ્ટી-હેડ પ્રોડક્શન ફ્લોર", "મોટી ફ્રેમ પર એકસાથે ૨૫ હેડ સાડી પ્રોડક્શન, ઓટો-શિફ્ટ અને ફેબ્રિક ટેન્શન રોલર્સ.") + """
+                """ + drv_img_card("DRV_29_Barudan_Machine_Head_Needle_Bar.jpg", "૭. Barudan / Dahao ઇન્ડસ્ટ્રિયલ હેડ આર્કિટેક્ચર", "નીડલ બાર મિકેનિઝમ, થ્રેડ ટેન્શન સ્પ્રિંગ્સ, ટેક-અપ લિવર અને ઓટો-ટ્રિમર કટર બ્લોક.") + """
+            </div>
+            <div style="background: rgba(74, 222, 128, 0.1); border-left: 4px solid #4ADE80; padding: 10px 14px; margin-top: 12px; border-radius: 4px; font-size: 13px; color: #E2E8F0;">
+                <b>⚙️ પ્રોડક્શન નિયમ:</b> ૨૫-હેડ મશીનમાં હેડ-ટુ-હેડ સ્પેસિંગ (Head Distance) ચોક્કસ <b>300 mm</b> અથવા <b>400 mm</b> હોય છે. પંચિંગ કરતી વખતે ડિઝાઇન રિપીટ આ અંતર સાથે 100% મેચ થવી જોઈએ.
+            </div>
+        </div>
+
+        <!-- SUB-SECTION 3: CORDING & DORI WORK -->
+        <div style="background: #1E293B; border-radius: 10px; padding: 18px; margin-bottom: 24px; border: 1px solid #334155;">
+            <h3 style="color: #F59E0B; margin-bottom: 10px; font-size: 16px;">
+                🧵 કેટેગરી ૩: કોર્ડિંગ & દોરી એમ્બ્રોઇડરી ટેકનીક્સ (૫ સેમ્પલ્સ)
+            </h3>
+            <p style="color: #CBD5E1; font-size: 13.5px; margin-bottom: 14px;">
+                જાડી દોરી, ગોલ્ડ ઝરી કોર્ડ અને યાર્નને ફેબ્રિક પર ઝિગઝેગ કે રન સ્ટીચ વડે બાંધવાની માસ્ટર ટેકનીક્સ.
+            </p>
+            <div class="image-gallery">
+                """ + drv_img_card("DRV_12_Heavy_Gold_Cording_Dori_Stitch.jpg", "૮. હેવી ગોલ્ડ દોરી (Cording Dori) વર્ક", "જાડી સોનેરી દોરી પર ૧.૨ mm ઝિગઝેગ ટાંકા સાથે નેકલાઇન આઉટલાઇન.") + """
+                """ + drv_img_card("DRV_19_Thick_Cording_Rope_Zigzag_Lock.jpg", "૯. થીક રોપ કોર્ડિંગ & ઝિગઝેગ ટેકડાઉન", "હાઇ-વોલ્યુમ રોપ દોરી પર ૨.૫ mm ઝિગઝેગ લિગામેન્ટ લોક ટાંકા.") + """
+                """ + drv_img_card("DRV_25_MultiColor_Cording_Yarn_Mesh.jpg", "૧૦. મલ્ટી-કલર કોર્ડિંગ યાર્ન નેટ વર્ક", "નેટ જાળી પર અલગ-અલગ રંગની દોરીઓનું મલ્ટી-લેયર કમ્પોઝિશન.") + """
+                """ + drv_img_card("DRV_32_Island_Cording_Dori_Border.jpg", "૧૧. આઇલેન્ડ કોર્ડિંગ દોરી બોર્ડર", "કટિંગ વગર સળંગ દોરી ફેરવવા માટે આઇલેન્ડ કનેક્ટર અને સેન્ટર ટ્રાવેલ.") + """
+                """ + drv_img_card("DRV_11_Gold_Thread_Relief_Work.jpg", "૧૨. ગોલ્ડ થ્રેડ રિલિફ અને દોરી હાઇલાઇટ્સ", "પાઘડી સાટિન સાથે દોરીની સુંદર બોર્ડર બનાવવાની જુગલબંધી.") + """
+            </div>
+            <div style="background: rgba(245, 158, 11, 0.1); border-left: 4px solid #F59E0B; padding: 10px 14px; margin-top: 12px; border-radius: 4px; font-size: 13px; color: #E2E8F0;">
+                <b>⚠️ પંચિંગ સાવચેતી:</b> દોરીમાં ક્યારેય શાર્પ 90° ખૂણો ન મૂકવો. હંમેશા <b>1.5 થી 2 mm નું સ્મૂધ રેડિયસ કર્વ</b> આપવું જેથી દોરી ડિવાઇસમાં ફસાય નહીં.
+            </div>
+        </div>
+
+        <!-- SUB-SECTION 4: LOOPING & CHENILLE EMBROIDERY -->
+        <div style="background: #1E293B; border-radius: 10px; padding: 18px; margin-bottom: 24px; border: 1px solid #334155;">
+            <h3 style="color: #EC4899; margin-bottom: 10px; font-size: 16px;">
+                ➰ કેટેગરી ૪: લૂપિંગ & ચેનીલ એમ્બ્રોઇડરી ટેક્સચર્સ (૩ સેમ્પલ્સ)
+            </h3>
+            <p style="color: #CBD5E1; font-size: 13.5px; margin-bottom: 14px;">
+                સોફ્ટ ટેરી-ટોવેલ જેવી લૂપ પાઇલ અને ચેઇન સ્ટીચિંગ વડે બનાવવામાં આવતી પ્રીમિયમ લૂપિંગ ઇફેક્ટ.
+            </p>
+            <div class="image-gallery">
+                """ + drv_img_card("DRV_16_Chenille_Looping_Art_Embroidery.jpg", "૧૩. આર્ટ એમ્બ્રોઇડરી લૂપિંગ પાઇલ", "ઉપસેલા લૂપ્સ વડે બનાવેલું પ્રીમિયમ 3D ચેનીલ ટેક્સચર.") + """
+                """ + drv_img_card("DRV_02_Loop_Chain_Chenille_Embroidery_Sample.jpg", "૧૪. ચેઇન સ્ટીચ લૂપિંગ કોન્ટૂર", "સળંગ ચેઇન લૂપ્સ વડે બોર્ડર અને પેટલ ફિલિંગનું સેમ્પલ.") + """
+                """ + drv_img_card("DRV_22_Pudder_Pela_Albe_Stitch_Types.jpg", "૧૫. પુડ્ડર / પેલા / આલ્બે સ્ટીચ વેરાયટી", "પરંપરાગત ટેક્સચર સ્ટીચ ટાઇપ્સ: પુડ્ડર લૂપ અને પેલા રિલિફ સ્ટીચિંગ.") + """
+            </div>
+            <div style="background: rgba(236, 72, 153, 0.1); border-left: 4px solid #EC4899; padding: 10px 14px; margin-top: 12px; border-radius: 4px; font-size: 13px; color: #E2E8F0;">
+                <b>🔒 લૂપિંગ લોક નિયમ:</b> લૂપ સ્ટીચ પાછળથી ખુલી ન જાય તે માટે શરૂઆતમાં અને છેડે <b>૩ થી ૪ નોર્મલ લોક ટાંકા (Tie-in/Tie-off)</b> મૂકવા અનિવાર્ય છે.
+            </div>
+        </div>
+
+        <!-- SUB-SECTION 5: BEADS & PEARLS WORK -->
+        <div style="background: #1E293B; border-radius: 10px; padding: 18px; margin-bottom: 24px; border: 1px solid #334155;">
+            <h3 style="color: #A855F7; margin-bottom: 10px; font-size: 16px;">
+                ⚪ કેટેગરી ૫: બીડ્સ & મોતી એમ્બ્રોઇડરી માસ્ટરી (૬ સેમ્પલ્સ)
+            </h3>
+            <p style="color: #CBD5E1; font-size: 13.5px; margin-bottom: 14px;">
+                ૨.૦ mm થી ૪.૦ mm ના કાચના મોતી અને પર્લ્સને ૪૫° ખૂણે લોક ટાંકા સાથે ટાંકીને બનાવેલા ઓરિજિનલ સેમ્પલ્સ.
+            </p>
+            <div class="image-gallery">
+                """ + drv_img_card("DRV_10_Crystal_Beads_Hand_Machine_Khaka.jpg", "૧૬. ક્રિસ્ટલ બીડ્સ & હેન્ડ-લુક ખાકા", "હસ્તકલા જેવો લુક આપતા મશીન બીડ્સ પ્લેસમેન્ટ અને ઝીણા મોતી.") + """
+                """ + drv_img_card("DRV_21_Gold_Beads_45Deg_Taka_Embroidery.jpg", "૧૭. ગોલ્ડ બીડ્સ ૪૫° ટાંકા લોકિંગ", "ચોક્કસ ૪૫ ડિગ્રી એંગલે ક્રોસ ટાંકો જેથી સોય મોતીની ધારે અથડાય નહીં.") + """
+                """ + drv_img_card("DRV_15_MultiSize_Pearl_Beads_Embroidery.jpg", "૧૮. મલ્ટી-સાઇઝ પર્લ બીડ્સ કોમ્બો", "મોટા (૩.૫ mm) અને નાના (૨.૦ mm) મોતીનું સુંદર મિશ્રણ.") + """
+                """ + drv_img_card("DRV_20_Micro_Beads_Angle_Taka_Detail.jpg", "૧૯. માઇક્રો બીડ્સ એંગલ વિગતો", "Alt + CapsLock કીબોર્ડ શોર્ટકટ વડે ૯° ના ગુણકમાં મોતી ફેરવવાની રીત.") + """
+                """ + drv_img_card("DRV_34_Curved_Contour_Beads_Placement.jpg", "૨૦. કર્વ્ડ કોન્ટૂર બીડ્સ પ્લેસમેન્ટ", "તીક્ષ્ણ વળાંક પર મોતીઓ વચ્ચે ઓવરલેપ રોકવા માટે સ્ટેપ સ્પેસિંગ.") + """
+                """ + drv_img_card("DRV_37_Sequin_Beads_Combo_Lace_Border.jpg", "૨૧. સિક્વિન + બીડ્સ કોમ્બો લેસ બોર્ડર", "સિક્વિન અને મોતીની સંયુક્ત લેસ ડિઝાઇન વિથ ઝીરો જમ્પ.") + """
+            </div>
+            <div style="background: rgba(168, 85, 247, 0.1); border-left: 4px solid #A855F7; padding: 10px 14px; margin-top: 12px; border-radius: 4px; font-size: 13px; color: #E2E8F0;">
+                <b>🎯 બીડ્સ ગણતરી:</b> ૨.૫ mm ના મોતી માટે પંચિંગ ટાંકો = <b>૨.૮ mm</b> રાખવો. ૩.૦ mm ના મોતી માટે ટાંકો = <b>૩.૩ mm</b> રાખવો (+0.3 mm ક્લિયરન્સ).
+            </div>
+        </div>
+
+        <!-- SUB-SECTION 6: SEQUIN & PAILLETTES -->
+        <div style="background: #1E293B; border-radius: 10px; padding: 18px; margin-bottom: 24px; border: 1px solid #334155;">
+            <h3 style="color: #06B6D4; margin-bottom: 10px; font-size: 16px;">
+                ✨ કેટેગરી ૬: સિક્વિન / સિતારા એમ્બ્રોઇડરી ટેકનીક્સ (૪ સેમ્પલ્સ)
+            </h3>
+            <p style="color: #CBD5E1; font-size: 13.5px; margin-bottom: 14px;">
+                સપાટ સિતારા, ઓવરલેપિંગ સ્કેલ અને સિક્વિન ઉપર મોતી (Double Stack) ના માસ્ટર સેમ્પલ્સ.
+            </p>
+            <div class="image-gallery">
+                """ + drv_img_card("DRV_07_Sequin_Overlapping_Scale_Border.jpg", "૨૨. ઓવરલેપિંગ સિક્વિન સ્કેલ બોર્ડર", "મચ્છી સ્કેલ પદ્ધતિ: એક સિતારો બીજા સિતારા પર ૫૦% ઓવરલેપ થઈને લોક થાય છે.") + """
+                """ + drv_img_card("DRV_04_Sequin_Rosette_Circular_Pattern.jpg", "૨૩. ગોળ ચક્રી સિક્વિન રોઝેટ મોટિફ", "સર્ક્યુલર એંગલમાં ઘૂમતા સિતારા વિથ સેન્ટ્રલ લોક સ્ટીચ.") + """
+                """ + drv_img_card("DRV_27_Double_Stack_Sequin_Beads_Pattern.jpg", "૨૪. ડબલ સ્ટેક સિક્વિન + બીડ્સ સ્વેચ", "નીચે સિતારો અને ઉપર મોતીનો કુંભી ટાંકો (Double Stack Luxury Stitch).") + """
+                """ + drv_img_card("DRV_28_Double_Stack_Sequin_Beads_Pattern_Var.jpg", "૨૫. ડબલ સ્ટેક વેરીએશન ડિઝાઇન", "અલગ કલરના ફેબ્રિક પર ડબલ સ્ટેક સિતારા-મોતીની રોયલ બોર્ડર.") + """
+            </div>
+            <div style="background: rgba(6, 182, 212, 0.1); border-left: 4px solid #06B6D4; padding: 10px 14px; margin-top: 12px; border-radius: 4px; font-size: 13px; color: #E2E8F0;">
+                <b>📐 સિક્વિન સ્પેસિંગ:</b> ૫ mm સિક્વિન માટે મચ્છી સ્કેલ સ્પેસિંગ = <b>૨.૫ mm</b>. સિંગલ ફ્લેટ સિક્વિન માટે સ્પેસિંગ = <b>૫.૫ mm</b>.
+            </div>
+        </div>
+
+        <!-- SUB-SECTION 7: PAGHDI & SATIN RELIEF -->
+        <div style="background: #1E293B; border-radius: 10px; padding: 18px; margin-bottom: 24px; border: 1px solid #334155;">
+            <h3 style="color: #EAB308; margin-bottom: 10px; font-size: 16px;">
+                👑 કેટેગરી ૭: પાઘડી & સાટિન સ્ટીચ રિલિફ વર્ક (૪ સેમ્પલ્સ)
+            </h3>
+            <p style="color: #CBD5E1; font-size: 13.5px; margin-bottom: 14px;">
+                ઊંડાણ અને 3D ઉપસેલો લુક આપતા પાઘડી સ્ટીચ અને સાટિન કોલમ્સ.
+            </p>
+            <div class="image-gallery">
+                """ + drv_img_card("DRV_08_Paghdi_Satin_Floral_Embroidery.jpg", "૨૬. હાઇ-ડેન્સિટી પાઘડી ફ્લાવર", "સાટિન પાઘડી સ્ટીચ વડે બનાવેલી ઉપસેલી પાંખડીઓ.") + """
+                """ + drv_img_card("DRV_18_Paghdi_Contour_Satin_Relief.jpg", "૨૭. પાઘડી કોન્ટૂર સાટિન રિલિફ", "વળાંકવાળી બોર્ડર પર વળાંક મુજબ ફરતા સાટિન ટાંકા.") + """
+                """ + drv_img_card("DRV_26_Dense_Satin_Tatami_Split_Work.jpg", "૨૮. સાટિન + તતામી સ્પ્લિટ રિલિફ", "૮ mm થી પહોળા ભાગમાં દોરાને તૂટતો રોકવા માટે વચ્ચે તતામી સ્પ્લિટ.") + """
+                """ + drv_img_card("DRV_31_Architectural_Satin_Column_Motif.jpg", "૨૯. આર્કિટેક્ચરલ સાટિન કોલમ મોટિફ", "જિયોમેટ્રિક સ્તંભ અને શાર્પ કોર્નર્સ સાથે મજબૂત પાઘડી સ્ટીચ.") + """
+            </div>
+            <div style="background: rgba(234, 179, 8, 0.1); border-left: 4px solid #EAB308; padding: 10px 14px; margin-top: 12px; border-radius: 4px; font-size: 13px; color: #E2E8F0;">
+                <b>⚡ પાઘડી સિક્રેટ:</b> F4 પાઘડી ટૂલ વાપરતી વખતે હંમેશા નીચે <b>Edge Run Underlay</b> મૂકવો જેથી પાઘડીની કિનારી શાર્પ અને કાપડ સંકોચાય નહીં.
+            </div>
+        </div>
+
+        <!-- SUB-SECTION 8: SHADING, VECTORS & MIRROR WORK -->
+        <div style="background: #1E293B; border-radius: 10px; padding: 18px; margin-bottom: 24px; border: 1px solid #334155;">
+            <h3 style="color: #10B981; margin-bottom: 10px; font-size: 16px;">
+                🌸 કેટેગરી ૮: વેક્ટર ડ્રોઇંગ, શેડિંગ & મિરર વર્ક (૮ સેમ્પલ્સ)
+            </h3>
+            <p style="color: #CBD5E1; font-size: 13.5px; margin-bottom: 14px;">
+                રિયલ ગ્લાસ આભલા, વેક્ટર આઉટલાઇનિંગ, કોઈલ સ્ટીચ અને ફ્લોરેન્ટાઇન કર્વ્ડ ઇફેક્ટ્સ.
+            </p>
+            <div class="image-gallery">
+                """ + drv_img_card("DRV_33_Mirror_Work_Glass_Embroidery.jpg", "૩૦. રિયલ મિરર (આભલા) ગ્લાસ એમ્બ્રોઇડરી", "કાચના આભલાને પકડી રાખતી અષ્ટકોણીય સાટિન ફ્રેમ વિથ ઝીરો સ્ક્રેચ.") + """
+                """ + drv_img_card("DRV_06_Star_Motif_Gradient_Stitch.jpg", "૩૧. મલ્ટી-શેડેડ સ્ટાર મોટિફ", "બે રંગના દોરાનું કુદરતી મિશ્રણ (Color Gradient Shading).") + """
+                """ + drv_img_card("DRV_24_Spiral_Coil_Lollipop_Stitch.jpg", "૩૨. સ્પાયરલ કોઈલ / લોલીપોપ સ્ટીચ", "ગોળ ઘૂમતી સર્પાકાર સ્ટીચ પેટર્ન વિથ સેન્ટ્રલ એન્કર.") + """
+                """ + drv_img_card("DRV_30_Florentine_Cross_Stitch_Swatch.jpg", "૩૩. ફ્લોરેન્ટાઇન કર્વ્ડ & ક્રોસ સ્ટીચ", "પાણીના મોજાં જેવી ફ્લોરેન્ટાઇન વળાંકવાળી સ્ટીચ લાઇન.") + """
+                """ + drv_img_card("DRV_05_Tatami_Mesh_Grid_Background.jpg", "૩૪. તતામી મેશ ગ્રીડ બેકગ્રાઉન્ડ", "કાપડને ખેંચાતું રોકવા માટે અન્ડરલે જાળી નેટવર્ક.") + """
+                """ + drv_img_card("DRV_09_Floral_Vector_Punching_Drawing.jpg", "૩૫. પંચિંગ વેક્ટર ફ્લાવર ડ્રોઇંગ", "સ્કેન ઈમેજ પરથી શુદ્ધ વેક્ટર લાઈન્સ બનાવવાનું ડ્રોઇંગ સ્ટેજ.") + """
+                """ + drv_img_card("DRV_17_Geometric_Run_Outline_Drawing.jpg", "૩૬. જિયોમેટ્રિક રન સ્ટીચ આઉટલાઇન", "બોર્ડર્સ અને ગાઈડલાઈન્સ માટે ચોક્કસ રન સ્ટીચ પાથ.") + """
+                """ + drv_img_card("DRV_36_Vector_Flower_Punching_Artwork.jpg", "૩૭. કલર્ડ આર્ટવર્ક પ્લાનિંગ શીટ", "પંચિંગ શરૂ કરતાં પહેલાં નીડલ કલર સિક્વન્સ અને રૂટીંગ પ્લાનિંગ.") + """
+            </div>
+            <div style="background: rgba(16, 185, 129, 0.1); border-left: 4px solid #10B981; padding: 10px 14px; margin-top: 12px; border-radius: 4px; font-size: 13px; color: #E2E8F0;">
+                <b>🪞 આભલા માસ્ટરી:</b> મિરર વર્કમાં પહેલાં <b>Inner Hexagon Run Underlay</b> મૂકો જેથી કાચ બેસી જાય, ત્યારબાદ ઉપર <b>Overcast Satin = 0.35 mm</b> ઘનતાથી લોક કરો.
+            </div>
+        </div>
+
+        <!-- SUMMARY REFERENCE TABLE -->
+        <div style="margin-top: 24px;">
+            <h3 style="color: var(--primary); margin-bottom: 12px;">📊 ૩૭ ડ્રાઇવ રેફરન્સ એસેટ્સ - ત્વરિત ટેકનિકલ સારાંશ કોષ્ટક</h3>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>નંબર</th>
+                        <th>ફાઇલ નામ</th>
+                        <th>કેટેગરી & વિષય</th>
+                        <th>EmCAD ટૂલ</th>
+                        <th>મશીન પેરામીટર / સાવચેતી</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>૦૧</td><td>DRV_13</td><td>emCAD Pro 2.10 Looping Screen</td><td>Looping / Sequin B</td><td>Feed: 32.2 mm, Spacing: 1.15 mm</td></tr>
+                    <tr><td>૦૨</td><td>DRV_14</td><td>Sequin B Device Close-up</td><td>Device Parameters</td><td>X: 1.15 mm, Y: 0.00 mm, Tie: 2 Stitches</td></tr>
+                    <tr><td>૦૩</td><td>DRV_03</td><td>emCAD 2.5 Workspace UI</td><td>Standard Digitizing</td><td>Needle selection, Zoom 1.00, Ruler mm</td></tr>
+                    <tr><td>૦૪</td><td>DRV_35</td><td>Fill vs Outline Stitch Chart</td><td>F3 Tatami / F2 Satin</td><td>Density 0.40 mm, Stitch Length 3.8 mm</td></tr>
+                    <tr><td>૦૫</td><td>DRV_23</td><td>Stitch Density Dialog</td><td>Object Properties</td><td>Underlay, Pull Compensation +0.15 mm</td></tr>
+                    <tr><td>૦૬</td><td>DRV_01</td><td>Multi-Head Machine Shop</td><td>Factory Production</td><td>25-Head, Repeat Spacing 300/400 mm</td></tr>
+                    <tr><td>૦૭</td><td>DRV_29</td><td>Barudan Machine Head</td><td>Hardware Mechanics</td><td>Thread tension, Auto-trimmer, Needles</td></tr>
+                    <tr><td>૦૮</td><td>DRV_12</td><td>Heavy Gold Cording Work</td><td>F11 / F12 Cording</td><td>Zigzag width: 1.2 mm, Length: 1.8 mm</td></tr>
+                    <tr><td>૦૯</td><td>DRV_19</td><td>Thick Rope Zigzag Lock</td><td>Rope Cording</td><td>Tackdown pitch: 2.5 mm, Smooth radius</td></tr>
+                    <tr><td>૧૦</td><td>DRV_25</td><td>Multi-Color Cording Mesh</td><td>Yarn Embroidery</td><td>Needle clearance, Low machine speed</td></tr>
+                    <tr><td>૧૧</td><td>DRV_32</td><td>Island Cording Dori Border</td><td>Island Cord Tool</td><td>Continuous feed, Zero internal trims</td></tr>
+                    <tr><td>૧૨</td><td>DRV_11</td><td>Gold Thread Relief Work</td><td>Satin + Cording</td><td>Dual texture elevation</td></tr>
+                    <tr><td>૧૩</td><td>DRV_16</td><td>Chenille Looping Art Swatch</td><td>Looping / Chenille</td><td>Loop pile height: 2.0 mm, Soft yarn</td></tr>
+                    <tr><td>૧૪</td><td>DRV_02</td><td>Loop Chain Stitch Sample</td><td>Chain Stitching</td><td>Loop density 0.50 mm, Tie-in lock</td></tr>
+                    <tr><td>૧૫</td><td>DRV_22</td><td>Pudder / Pela / Albe Stitches</td><td>Specialty Stitches</td><td>Textured background fill</td></tr>
+                    <tr><td>૧૬</td><td>DRV_10</td><td>Crystal Beads Hand-Look</td><td>F7 Beads Digitizing</td><td>Glass crystal beads, 45° cross lock</td></tr>
+                    <tr><td>૧૭</td><td>DRV_21</td><td>Gold Beads 45° Taka</td><td>Beads Angle Lock</td><td>45° Angle taka, Taka length: 2.8 mm</td></tr>
+                    <tr><td>૧૮</td><td>DRV_15</td><td>Multi-Size Pearl Combo</td><td>Dual Bead Heads</td><td>Combo 2.0 mm + 3.5 mm pearls</td></tr>
+                    <tr><td>૧૯</td><td>DRV_20</td><td>Micro Beads Angle Detail</td><td>Alt + CapsLock</td><td>Rotate 9° increments, Precise clearance</td></tr>
+                    <tr><td>૨૦</td><td>DRV_34</td><td>Curved Contour Beads</td><td>Contour Bead Flow</td><td>Slow feed around sharp curves</td></tr>
+                    <tr><td>૨૧</td><td>DRV_37</td><td>Sequin + Beads Combo Lace</td><td>Hybrid Devices</td><td>Sequin base + Pearl center lock</td></tr>
+                    <tr><td>૨૨</td><td>DRV_07</td><td>Overlapping Scale Sequin</td><td>Fish Scale Sequin</td><td>Pitch: 2.5 mm (50% overlap of 5mm)</td></tr>
+                    <tr><td>૨૩</td><td>DRV_04</td><td>Circular Sequin Rosette</td><td>Radial Sequin</td><td>Center anchor stitch, Radial feed</td></tr>
+                    <tr><td>૨૪</td><td>DRV_27</td><td>Double Stack Sequin + Beads</td><td>Stacked Device</td><td>5mm Cup sequin + 3mm Pearl stack</td></tr>
+                    <tr><td>૨૫</td><td>DRV_28</td><td>Double Stack Variation</td><td>Luxury Border</td><td>High-end bridal lace embroidery</td></tr>
+                    <tr><td>૨૬</td><td>DRV_08</td><td>Paghdi Satin Floral Work</td><td>F4 Paghdi Column</td><td>High-density 3D column, Density 0.38</td></tr>
+                    <tr><td>૨૭</td><td>DRV_18</td><td>Paghdi Contour Relief</td><td>Turning Satin</td><td>Turning angle lines, Smooth curve flow</td></tr>
+                    <tr><td>૨૮</td><td>DRV_26</td><td>Dense Satin Tatami Split</td><td>Pattern Split</td><td>Prevent long floats > 8mm via Tatami</td></tr>
+                    <tr><td>૨૯</td><td>DRV_31</td><td>Architectural Satin Columns</td><td>Column Digitizing</td><td>Edge run underlay, Crisp corner cuts</td></tr>
+                    <tr><td>૩૦</td><td>DRV_33</td><td>Real Glass Mirror Work</td><td>Mirror Frame Tool</td><td>Octagonal cage stitch, Overcast 0.35 mm</td></tr>
+                    <tr><td>૩૧</td><td>DRV_06</td><td>Star Motif Color Gradient</td><td>Color Blending</td><td>Two-tone density feathering</td></tr>
+                    <tr><td>૩૨</td><td>DRV_24</td><td>Spiral Coil Lollipop Stitch</td><td>Coil Stitch Run</td><td>Continuous spiral path, Inward travel</td></tr>
+                    <tr><td>૩૩</td><td>DRV_30</td><td>Florentine & Cross Stitch</td><td>Wave Effect Fill</td><td>Curved wave lines across object</td></tr>
+                    <tr><td>૩૪</td><td>DRV_05</td><td>Tatami Mesh Grid Network</td><td>Grid Underlay</td><td>Stabilize delicate sheer fabrics</td></tr>
+                    <tr><td>૩૫</td><td>DRV_09</td><td>Vector Flower Punch Drawing</td><td>H Shape Edit</td><td>Clean node placement before punching</td></tr>
+                    <tr><td>૩૬</td><td>DRV_17</td><td>Geometric Run Outline Path</td><td>Run Stitch (F6)</td><td>Path routing, Minimize machine jumps</td></tr>
+                    <tr><td>૩૭</td><td>DRV_36</td><td>Color Artwork Planning Sheet</td><td>Sequence Planning</td><td>Pre-production colorway mapping</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    """
+
     sec_troubleshooting = """
     <div class="section-card" id="sec-troubleshooting">
         <div class="section-header">
@@ -3549,7 +3791,7 @@ def assemble_sections():
         </div>
     </div>
     """
-    return [sec1, sec2, sec_animations, sec_comparisons, sec3, sec4, sec5, sec6, sec7, sec8, sec9, sec10, sec11, sec12, sec12b, sec13, sec14, sec15, sec16, sec_troubleshooting, sec_projects, sec_roadmap, sec_slang, sec_dos_donts, sec_quiz, sec17]
+    return [sec1, sec2, sec_animations, sec_comparisons, sec3, sec4, sec5, sec6, sec7, sec8, sec9, sec10, sec11, sec12, sec12b, sec13, sec14, sec15, sec16, sec_drive_gallery, sec_troubleshooting, sec_projects, sec_roadmap, sec_slang, sec_dos_donts, sec_quiz, sec17]
 
 def main():
     print("Building full HTML document...")
